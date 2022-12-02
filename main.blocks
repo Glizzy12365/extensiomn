@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="db[0G)c+U?2vmEC~u?^n" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="d`XDBkvCKHW:4;t;nIt["><value name="color"><shadow type="colorindexpicker" id="`(RfYz^9Q1VP(K7qph%F"><field name="index">12</field></shadow></value><next><block type="particlesStartScreenAnimation" id="Dnp.0:/2*9!~U|X_m,wR"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.blizzard</field><value name="duration"><shadow type="timePicker" id="08eYYy!]?ES7lo{G-x`a"><field name="ms">500</field></shadow></value><next><block type="device_pause" id="p54`#+G^1k!6i(lKNO.1"><value name="pause"><shadow type="timePicker" id="FaA-S4=)YtX,0JjBygHI"><field name="ms">3000</field></shadow></value><next><block type="game_dialog_set_frame" id="wx]Gw,e|{f(+]BHom^CG"><value name="frame"><shadow type="dialog_image_picker" id="%%*%?oU0Rd6#3,^IXEnE"><field name="img">img`
+...cc......................cc....
+..c55c..bbbb...bbbbb......c55c...
+.cb55bcbdddbbbbbdddbbbbbbcb55bc..
+b555555bbdddb111bdddb11db555555b.
+bb5555bbdbdb11111bdb1111bb5555bb.
+cb5555bcddd11111ddd11111cb5555bc.
+.c5bb5c1111d111d111d111ddc5bb5c..
+.cbbbbc111111111111111111cbbbbc..
+..b11111111111111111111111d111bb.
+..b111111111111111111111111d1bdb.
+..bb11111111111111111111111dbddb.
+.bbdb1d11111111111111111111ddddb.
+.bdddd11111111111111111111d1bdbb.
+.bddbd11111111111111111111111bb..
+.bdb1d111111111111111111111111b..
+.bb111d11111111111111111111111b..
+..b11111111111111111111111d111bb.
+..b111111111111111111111111d1bdb.
+..bb11111111111111111111111dbddb.
+.bbdb1d11111111111111111111ddddb.
+.bdddd11111111111111111111d1bdbb.
+.bddbd11111111111111111111111bb..
+.bdbb1111111111111111111111111b..
+.bbbd1111111111111111111111111b..
+..bcc111111111111111111111dccdb..
+..c55c111d111d111d111d1111c55cb..
+.cb55bcdd11111ddd11111dddcb55bc..
+b555555b11111bdb11111bdbb555555b.
+bb5555bbb111bdddb111bdddbb5555bb.
+cb5555bcdbbbbbdddbbbbbddcb5555bc.
+.c5bb5c.bb...bbbbb...bbbbc5bb5c..
+.cbbbbc..................cbbbbc..
+.................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"%%*%?oU0Rd6#3,^IXEnE"}}</data></shadow></value><next><block type="game_dialog_set_text_color" id="ji#TZ_gsT0b_EEJsyzte"><value name="color"><shadow type="colorindexpicker" id="C6cp`[UyhMXn-RTPXWK@"><field name="index">15</field></shadow></value><next><block type="game_show_long_text" id="UY1@unZ3O!JU$*H[_2M-"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text" id="d0_NemqFOt=jw5A=hrep"><field name="TEXT">welcome to your cool game!</field></shadow></value><next><block type="particlesEndScreenAnimation" id="mtJ}]8Xr.NRV/:uK5z2I"><field name="effect">effects.confetti</field><next><block type="mixer_play_sound" id="SdG.goGMI;.9CCUJc8Zo"><field name="sound">music.magicWand</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
